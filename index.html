@@ -13,6 +13,8 @@
         media="print" onload="this.media='all'" />
     <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
     <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
     <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
     <link href="css/main.css?ver=1.2.1" rel="stylesheet">
     <script src="https://smtpjs.com/v3/smtp.js">
@@ -311,7 +313,7 @@
                         <div class="row g-0">
                             <div class="col-md-6">
                                 <a href="http://getappointment.epizy.com/" target="_blank"><img class="img-fluid"
-                                        src="images/project-1.PNG" width="800" height="500" /></a>
+                                        src="images/appointment/img-1.PNG" width="800" height="500" /></a>
                             </div>
                             <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
                                 <div class="m-4 mt-md-2">
@@ -321,9 +323,8 @@
                                         to automate the existing system and ease the patients from hardship and to
                                         create a convenient and easy-to-use application for them, so that they can take
                                         appointments from the doctors.
-                                        <span>
-                                            <a href="http://getappointment.epizy.com/" target="_blank">Visit</a>
-                                        </span>
+                                        <button class="btn btn-sm btn-outline-info detail-btn" data-mdb-toggle="modal"
+                                            data-mdb-target="#exampleModal">View Details</button>
                                     </p>
                                 </div>
                             </div>
@@ -339,21 +340,20 @@
                                         using ticket through their bkash or
                                         rocket payment system. There is also an admin module where admin can add
                                         stations, trains, routes and also update.
-                                        <span>
-                                            <a href="http://nahidevil.pythonanywhere.com/" target="_blank">Visit</a>
-                                        </span>
+                                        <button class="btn btn-sm btn-outline-info detail-btn" data-mdb-toggle="modal"
+                                            data-mdb-target="#exampleModal">View Details</button>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <a href="http://nahidevil.pythonanywhere.com/" target="_blank"><img class="img-fluid"
-                                        src="images/project-2.PNG" width="800" height="500" /></a>
+                                        src="images/metro-rail/img-1.jpg" width="800" height="500" /></a>
                             </div>
                         </div>
                         <div class="row g-0">
                             <div class="col-md-6">
                                 <a href="http://getroutine.epizy.com/" target="_blank"><img class="img-fluid"
-                                        src="images/project-3.PNG" width="800" height="500" /></a>
+                                        src="images/schedule-maker/img-1.jpg" width="800" height="500" /></a>
                             </div>
                             <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
                                 <div class="m-4 mt-md-2">
@@ -364,9 +364,8 @@
                                         they can choose courses and preferable sections. This system generates all
                                         possible combinations from the selected
                                         courses and sections.
-                                        <span>
-                                            <a href="http://getroutine.epizy.com/" target="_blank">Visit</a>
-                                        </span>
+                                        <button class="btn btn-sm btn-outline-info detail-btn" data-mdb-toggle="modal"
+                                            data-mdb-target="#exampleModal">View Details</button>
                                     </p>
                                 </div>
                             </div>
@@ -382,15 +381,15 @@
                                         using ticket through their bkash or
                                         rocket payment system. There is also an admin module where admin can add
                                         stations, trains, routes and also update.
-                                        <span>
-                                            <a href="https://watchy-world.web.app/" target="_blank">Visit</a>
-                                        </span>
+
+                                        <button class="btn btn-sm btn-outline-info detail-btn" data-mdb-toggle="modal"
+                                            data-mdb-target="#exampleModal">View Details</button>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <a href="https://watchy-world.web.app/" target="_blank"><img class="img-fluid"
-                                        src="images/project-4.PNG" width="800" height="500" /></a>
+                                        src="images/watch-world/img-1.jpg" width="800" height="500" /></a>
                             </div>
                         </div>
                     </div>
@@ -491,12 +490,159 @@
         </div>
     </div>
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body p-xl-0">
+                    <div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="" class="d-block w-100" alt="..." />
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="" class="d-block w-100" alt="..." />
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="" class="d-block w-100" alt="..." />
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleTouch"
+                            data-mdb-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleTouch"
+                            data-mdb-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="p-2">
+                        <h5>Features:</h5>
+                        <ul class="features">
+
+                        </ul>
+                        <h6>Technologies Used: <span class="technologies"></span></h6>
+
+                        <div class="d-flex mt-3 justify-content-center links">
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
     <script src="scripts/mdb.min.js?ver=1.2.1"></script>
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
     <script src="scripts/jquery.min.js"></script>
     <script type="text/javascript">
         var submitted = false;
+        let projects = [
+            appointment = {
+                img: ['./images/appointment/img-1.PNG', './images/appointment/img-2.PNG', './images/appointment/img-3.PNG'],
+                title: 'Doctor Appointment System',
+                features: ['Normal user and admin different login system',
+                    'Users can search for specific doctors and take appointment',
+                    'Admin can add new doctors, new admin and manage appointments'
+                ],
+                technologies: 'HTML, Bootstrap, Raw PHP, MySQL',
+                links: ['http://getappointment.epizy.com/', 'https://github.com/nahidsalekin/doctor-appointment-system', '']
+            },
+            metroRail = {
+                img: ['./images/metro-rail/img-1.jpg', './images/metro-rail/img-2.jpg', './images/metro-rail/img-3.jpg'],
+                title: 'Train Ticket Management System',
+                features: ['Normal user and admin have different functionalities',
+                    'Users can purchase ticket by specific seat or randomly',
+                    'Users has own profile, reservation history, manage own booking',
+                    'Admin can add stations, ticket price, manage bookings'
+                ],
+                technologies: 'HTML, CSS, Django, MySQL',
+                links: ['http://nahidevil.pythonanywhere.com/', 'https://github.com/nahidsalekin/metro-rail-ticket-management', '']
+            },
+            scheduleMaker = {
+                img: ['images/schedule-maker/img-1.jpg', 'images/schedule-maker/img-2.jpg', 'images/schedule-maker/img-3.jpg'],
+                title: 'Automated Class Schedule Maker',
+                features: ['Developed for students of EWU',
+                    'Students can generate routines based on their preference',
+                    'Also desktop app given with instructions',
+
+                ],
+                technologies: 'HTML, CSS, PHP, MySQL',
+                links: ['http://getroutine.epizy.com/', '', '']
+            },
+            watchyWorld = {
+                img: ['images/watch-world/img-1.jpg', 'images/watch-world/img-2.jpg', 'images/watch-world/img-3.jpg'],
+                title: 'Watch World',
+                features: ['User can purchase watches, manage orders',
+                    'Admin can add new watch, make new admin, manage all orders',
+                    'Admin can process order to deliver or cancel',
+
+                ],
+                technologies: 'React JS, Bootstrap, MongoDB, Express Js',
+                links: ['https://watchy-world.web.app/',
+                    'https://github.com/nahidsalekin/watch-world-client',
+                    'https://github.com/nahidsalekin/watch-world-server'
+                ]
+            }
+        ];
+
+        let images = document.querySelectorAll('.modal .carousel .carousel-inner img');
+        let features = document.querySelector('.modal .features');
+        let technologies = document.querySelector('.modal .technologies');
+        let links = document.querySelector('.modal .links');
+
+        document.querySelectorAll('.detail-btn').forEach((btn, index) => {
+            btn.addEventListener('click', e => {
+
+                projects[index].img.forEach((item, imgIndex) => {
+                    images[imgIndex].src = item;
+                });
+
+                let featuresLi = '';
+                projects[index].features.forEach(feature => {
+                    featuresLi += `<li>${feature}</li>`;
+                });
+                features.innerHTML = featuresLi;
+
+                technologies.innerHTML = projects[index].technologies;
+
+                let linksBtn;
+
+                linksBtn = `<a href="${projects[index].links[0]}" target="_blank" class="btn btn-outline-dark me-2">Live Site</a>`;
+                linksBtn += projects[index].links[1] != '' ? `<a href="${projects[index].links[1]}" target="_blank" class="btn btn-outline-dark me-2">Client Source</a>` : '';
+                linksBtn += projects[index].links[2] != '' ? `<a href="${projects[index].links[2]}" target="_blank" class="btn btn-outline-dark me-2">Server Source</a>` : '';
+
+                links.innerHTML = linksBtn;
+
+            })
+        })
     </script>
     <script type="text/javascript">
         function sendEmail() {
